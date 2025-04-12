@@ -15,4 +15,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  base: '/qr-code-component/', // GitHub 仓库名
 })
